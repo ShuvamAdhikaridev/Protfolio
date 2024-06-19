@@ -59,7 +59,13 @@ ul {
   padding: 12px 35px;
   color: white;
   border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
   background: var(--skin-color);
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  transform: scale(1.05);
 }
 /* aside */
 .aside {
